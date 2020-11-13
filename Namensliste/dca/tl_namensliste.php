@@ -31,7 +31,6 @@ $GLOBALS['TL_DCA'][$table_name] = array
         ),
         'label' => array
         (
-            // Das Feld aktiv wird vom label_callback überschrieben
             'fields'        => array('vorname', 'name', 'email'),
             'showColumns'   => true,
             'format'        => '%s'
